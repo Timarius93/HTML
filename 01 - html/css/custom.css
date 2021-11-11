@@ -1,0 +1,30 @@
+h1 {color:red ;
+    background:rgb(99, 75, 255);
+    }
+
+h2 {
+    font-size: 50px;
+    color: blue;
+    background: red;
+}
+
+p{
+    background:plum;
+    text-align: right;
+    
+}
+
+/*
+la .classe bypassa i tag, ha più importanza
+*/
+.asusu{
+    background:peachpuff;
+    text-align: left;
+}
+
+/*
+l'#id ha priorità su tutto, in ordine id>classe>tag
+*/
+#provaId{
+    font-size: 10px;
+}
