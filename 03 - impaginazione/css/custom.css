@@ -1,0 +1,41 @@
+body{
+    background: rgb(255, 200, 200);
+    
+}
+.container {
+text-align: left;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.topM{
+    margin-top: 2%;
+}
+
+.botM{
+    margin-top: 2%;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: rgb(51, 141, 95);
+}
+
+img{
+    display: block;
+    margin:0 auto;
+}
+
+.natale p{
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.inizio{
+    text-align: center;
+}
+
+
