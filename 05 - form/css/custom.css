@@ -1,0 +1,11 @@
+.formGroup{
+    margin-bottom: 2rem;
+}
+
+label {
+    margin-right: 2rem;
+}
+
+#regione option {
+    text-transform: uppercase;
+}
