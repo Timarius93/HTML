@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <title>Esempio tabelle</title>
+</head>
+<body>
+    <main class="wrapper">
+    <h1>Voli e destinazioni</h1>
+
+    <table id="voli">
+        <tbody> 
+            <thead> 
+                <!-- intestazione non obbligatoria -->
+                Proposte di viaggio per il weekend del 1 Novembre
+            </thead>
+            <tr class="grigino">
+                <th>Destinazione</th>
+                <th>Partenza</th>
+                <th>Arrivo</th>
+                <th>Costo</th>
+                <th>Compagnia</th>
+            </tr>
+            <!-- tr>td*5 tab -->
+            <tr>
+                <td>Londra</td>
+                <td>MXP 10:35</td>
+                <td>LHR 12:00</td>
+                <td>€85</td>
+                <td>EasyJet</td>
+            </tr>
+
+            <tr class="grigino">
+                <td>Los Angelese</td>
+                <td>MXP 11:35</td>
+                <td>LAX 17:50</td>
+                <td>€150</td>
+                <td>Virgin Airlinese</td>
+            </tr>
+
+            <tr>
+                <td>San Francisco</td>
+                <td>MXP 06:42</td>
+                <td>SFO 15:40</td>
+                <td>€160</td>
+                <td>American Airlines</td>
+            </tr> 
+
+            <tr class="grigino">
+                <td>Bucarest</td>
+                <td>BGY 08:50</td>
+                <td>OTP 10:35</td>
+                <td>€70</td>
+                <td>Ryan Air</td>
+            </tr>
+
+            <tr>
+                <td>Tokyo</td>
+                <td>BGY 08:50</td>
+                <td>TKY 18:35</td>
+                <td>€200</td>
+                <td>Ryan Air</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Tipo Spesa</th>
+                <th>Costo</th>
+            </tr>
+            <tr>
+                <td>Volo</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Auto</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Albergo</td>
+                <td>90</td>
+            </tr>
+
+            <tfoot>
+                <!-- usato per somme e altri dati riassuntivi, non obbligatorio -->
+                <tr>
+                    <td>Totale</td>
+                    <td>290</td>
+                </tr>
+            </tfoot>
+
+        </tbody>
+    </table>
+
+
+    <h2>Tabella con celle unite</h2>
+    <table>
+        <tbody>
+            <tr>
+                <th>Mese</th>
+                <th>Spesa</th>
+            </tr>
+            <tr>
+                <td>Gennaio</td>
+                <td>250€</td>
+            </tr>
+            <tr>
+                <td>Febbraio</td>
+                <td>450€</td>
+            </tr>
+            <tr>
+                <td>Marzo</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td colspan="2">Totale: €800</td>
+                colspan unisce + colonne
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr><th>head</th><th>head</th><th>head</th></tr>
+        </thead>
+        <tbody>
+            <tr><td rowspan="2">double row cell</td><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td></tr>
+            <tr><td>cell</td><td>cell</td><td>cell</td></tr>
+        </tbody>
+    </table>
+    
+    </main>
+</body>
+</html>
