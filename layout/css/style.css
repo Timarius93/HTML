@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box; /*cambia il box model su border box sostituendo il default di content box, per approfondire: https://css-tricks.com/box-sizing/ */
+}
+
+img {
+    max-width: 100%;
+    height: 0 auto;
+}
+
+/* MENU DI NAVIGAZIONE*/
+
+.mainMenu ul {
+    list-style-type: none;
+    display: flex; /*applico flexbox a ul genitore di li*/
+
+}
+
+#header {
+    display: flex;
+    flex-flow: row; /*proprietà di default che imposta il main axis sull'asse orizzontale*/
+    align-items: center; /*centra gli oggetti in verticale (cross axis)*/
+    justify-content: space-between; /*dispone gli oggetti in ORIZZONTALE (main axis) agli estremi del contenitore flex*/
+    
+}
+
+.mainMenu ul li { /*gli li dentro ul che è dentro a mainMenu*/
+    margin-left: 1rem;
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+}
+
+.introImg{
+    flex-basis: 50%;
+    order: 1;
+}
+
+.introText{
+    flex-basis: 50%;
+    padding:2rem;
+}
+
+.galleryWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.galleryItem {
+    width: 25%;
+    padding: 1rem;
+}
+
+#gallery{
+    margin-bottom: 5rem;
+}
+
+.galleryItem img {
+    display: block;
+    
+}
+
+#mainFooter{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #333;
+    color: wheat;
+}
