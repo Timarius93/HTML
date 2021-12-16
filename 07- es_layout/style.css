@@ -1,0 +1,82 @@
+#hero {
+    margin-bottom: 5rem;
+    height: 50%;
+    position: relative;
+    text-align: center;
+}
+
+
+
+#logo {
+    max-width: 30%;
+}
+
+.immaginina {
+    max-width: 80%;
+    /*così sembra andare*/
+
+}
+
+.pacific {
+    font-family: 'Pacifico', cursive;
+}
+
+.sezione {
+    margin-bottom: 5rem;
+}
+
+
+
+.coloreFooter {
+    background-color: rgb(155, 132, 255);
+    color: white;
+}
+
+#qualcosaltro {
+
+    /* float: right; */
+    margin-right: 1rem;
+    justify-content: right;
+    text-align: right;
+}
+
+#qualcosa {
+    margin-left: 1rem;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centered h1 {
+    font-size: 2.2rem;
+}
+/* da fare media query con min-width da 991*/
+.centered p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    .centered h1{
+        font-size: 5rem;
+    }
+
+    .centered p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .centered h1{
+        font-size: 7rem;
+    }
+
+    .centered p{
+        font-size: 1.5rem;
+    }
+}
